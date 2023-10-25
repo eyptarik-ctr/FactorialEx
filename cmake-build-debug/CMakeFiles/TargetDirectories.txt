@@ -1,0 +1,3 @@
+C:/Users/tarik/CLionProjects/faktoriyel_alama/cmake-build-debug/CMakeFiles/faktoriyel_alama.dir
+C:/Users/tarik/CLionProjects/faktoriyel_alama/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tarik/CLionProjects/faktoriyel_alama/cmake-build-debug/CMakeFiles/rebuild_cache.dir
