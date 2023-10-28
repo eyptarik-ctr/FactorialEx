@@ -1,16 +1,26 @@
 #include <iostream>
-using namespace std;
-int main() {
-    int number , faktoriel = 1;
-    cout << "faktoriyelini almak istediginiz sayiyi girin" << endl;
-    cin >> number;
-    while (number > 0)
-    {
-        faktoriel *= number;
-        number --;
 
+using namespace std;
+
+int main() {
+    setlocale(LC_ALL, "Turkish");
+    long long  int number, faktoriel = 1;
+    cout << "Faktoriyelini almak istediğiniz sayıyı girin: ";
+    cin >> number;
+
+    while (number > 0) {
+        faktoriel *= number;
+        number--;
     }
-    cout << "sayinizin faktoriyeli " << faktoriel << endl ;
+
+    int basamakSayisi = 0;
+    int temp = faktoriel;
+    while (temp > 0) {
+        temp /= 10;
+        basamakSayisi++;
+    }
+
+    cout << "Sayınızın faktoriyeli: " << faktoriel << ", basamak sayısı: " << basamakSayisi << endl;
 
     return 0;
 }
